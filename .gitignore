@@ -1,0 +1,24 @@
+# Build output
+target/
+build/
+out/
+
+# Spring Tool Suite / Eclipse
+.classpath
+.project
+.settings/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+*.properties.local
+*.yml.local
+
+# Compiled classes
+*.class
