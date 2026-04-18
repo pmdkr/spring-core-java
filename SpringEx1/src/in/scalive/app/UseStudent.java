@@ -15,11 +15,14 @@ public class UseStudent {
 
 		BeanFactory container = new XmlBeanFactory(res);
 		System.out.println("Container started...");
-		
-		Student s = (Student) container.getBean("stObj");
 
-		System.out.println("Name :" + s.getName());
-		System.out.println("Roll no : " + s.getRoll_no());
+		Student s1 = (Student) container.getBean("stObj1");
+		Student s2 = (Student) container.getBean("stObj2");
+
+		System.out.println("Name :" + s1.getName());
+		System.out.println("Roll no : " + s1.getRoll_no());
+		System.out.println("Name :" + s2.getName());
+		System.out.println("Roll no : " + s2.getRoll_no());
 
 	}
 

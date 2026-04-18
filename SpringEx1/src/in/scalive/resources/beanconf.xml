@@ -4,9 +4,13 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 	<!-- bean definitions here -->
-	<bean class="in.scalive.beans.Student" id="stObj">
+	<bean class="in.scalive.beans.Student" id="stObj1">
 		<property name="roll_no" value="101" />
 		<property name="name" value="Pramod" />
+	</bean>
+	<bean class="in.scalive.beans.Student" id="stObj2">
+		<property name="roll_no" value="102" />
+		<property name="name" value="Keshav" />
 	</bean>
 
 </beans>
